@@ -19,6 +19,7 @@ When using the files in this project, please cite:
 
 * Y. Choi, Y. Chi, J. Wang, L. Guo, and J. Cong, "When HLS meets FPGA HBM: Benchmarking and bandwidth optimization," arXiv preprint arXiv:2010.06075, 2020.
 
+Available at: https://arxiv.org/abs/2010.06075
 
 ## Prerequisites
 * Intel Quartus (with AOCL) 19.4
@@ -33,6 +34,7 @@ Please type "./run" in each project folder. It will generate a bitstream, compil
 ### If you are an UCLA VAST member:
 * For Xilinx flow, please source "setup\_alveo.sh" in my home directory before compilation
 * For Intel flow, please put "with-aocl" before the second and third line of "run" file:
+
     with-aocl make
     with-aocl ./host/host
 
@@ -80,7 +82,7 @@ Depth-first search is conducted on a binary tree implemented as a linked list. T
 The copyright notice of the Intel files:
 [.... to be filled .....]
 
-All the files in xilinx/ folder has been modified from the https://github.com/Xilinx/Vitis\_Accel\_Examples/ 19.2 version. The below is the original copyright notice from Xilinx:
+All the files in xilinx/ folder has been modified from the https://github.com/Xilinx/Vitis_Accel_Examples/ 19.2 version. The below is the original copyright notice from Xilinx:
 
 /**********
 Copyright (c) 2020, Xilinx, Inc.

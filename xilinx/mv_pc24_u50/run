@@ -1,0 +1,3 @@
+make all TARGET=hw 
+cp ./build_dir.hw.xilinx_u50_gen3x16_xdma_201920_3/vadd.xclbin .
+./host vadd.xclbin

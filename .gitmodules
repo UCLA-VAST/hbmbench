@@ -1,0 +1,3 @@
+[submodule "stencil"]
+	path = stencil
+	url = https://github.com/UCLA-VAST/hbmbench-stencil.git
